@@ -1,0 +1,75 @@
+*
+    box-sizing: border-box
+
+$primari_color: #55565C
+$primari_text_color: #C7C7C9
+
+.footer-background
+    background-color: $primari_color
+
+.footer-layout
+    display: flex
+    flex-wrap: wrap
+    justify-content: center
+    align-items: center
+    font-family: 'Roboto Condensed', sans-serif
+
+.footer-container
+    display: flex
+    flex: 25%
+    flex-direction: column
+    padding: 20px
+
+@media (max-width: 992px)
+    .footer-container
+        flex: 50%
+
+@media (max-width: 600px)
+    .footer-layout
+        flex-direction: column
+        background-color: red
+    .logos-mobile
+        flex-direction: row !important
+        align-items: baseline
+        justify-content: center
+        margin-left: unset !important
+
+.footer_text
+    color: $primari_text_color
+    font-size: 16px
+    margin-bottom: 16px
+
+.input-contact
+    color: $primari_text_color
+    border: none
+    margin-bottom: 10px
+    border-bottom: 1px solid $primari_text_color
+    background-color: $primari_color
+    margin-left: 8px
+    font-size: 16px
+    resize: none
+
+input:focus-visible
+    outline: none
+
+textarea:focus-visible
+    outline: none
+.input-text
+    width: 94%
+
+.input-button
+    width: 90%
+    background-color: $primari_color
+    border: 1px solid $primari_text_color
+    border-radius: 4px
+    color: $primari_text_color
+
+.logo-image
+    max-width: 30%
+
+.social-icons
+    width: 22px
+    height: 22px
+textarea::placeholder
+    font-family: sans-serif
+    padding-top: 20px
