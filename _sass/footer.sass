@@ -19,25 +19,12 @@ $primari_text_color: #C7C7C9
     flex: 25%
     flex-direction: column
     padding: 20px
-
-@media (max-width: 992px)
-    .footer-container
-        flex: 50%
-
-@media (max-width: 600px)
-    .footer-layout
-        flex-direction: column
-        background-color: red
-    .logos-mobile
-        flex-direction: row !important
-        align-items: baseline
-        justify-content: center
-        margin-left: unset !important
-
 .footer_text
     color: $primari_text_color
     font-size: 16px
     margin-bottom: 16px
+    display: flex
+    align-items: center
 
 .input-contact
     color: $primari_text_color
@@ -70,6 +57,20 @@ textarea:focus-visible
 .social-icons
     width: 22px
     height: 22px
+    margin-right: 8px
 textarea::placeholder
     font-family: sans-serif
     padding-top: 20px
+@media (max-width: 600px)
+    .footer-layout
+        flex-direction: column !important
+    .footer-container
+        align-items: center !important
+    .logos-mobile
+        flex-direction: row !important
+        align-items: baseline !important
+        justify-content: center !important
+        margin-left: unset !important
+@media (max-width: 992px)
+    .footer-container
+        flex: 50% !important

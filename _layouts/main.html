@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html lang="{{ site.language }}" class="no-js">
+{% include head.html %}
 
 <body>
-    <section class="content">
 
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/styles.css">
+    <section class="content">
+        {{ content }}
     </section>
     {% include footer.html %}
 </body>
