@@ -37,6 +37,12 @@ email2: email2@email.com
 phone_number1: 89128210
 phone_number2: 839820102
 
+menu:
+  - title: Home
+    url: /
+  - title: SAS
+    url: /sas
+
 sass:
   sass_dir: _sass
   style: compressed

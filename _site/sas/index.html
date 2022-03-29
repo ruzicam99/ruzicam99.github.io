@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en"><head>
+<html lang="" class="no-js">
+<head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
@@ -38,46 +39,90 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
-</head><body><header class="site-header" role="banner">
+</head>
 
-  <div class="wrapper"><a class="site-title" rel="author" href="/">Your awesome title</a><nav class="site-nav">
-        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
-        <label for="nav-trigger">
-          <span class="menu-icon">
-            <svg viewBox="0 0 18 15" width="18px" height="15px">
-              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
-            </svg>
-          </span>
-        </label>
+<body>
 
-        <div class="trigger"><a class="page-link" href="/about/">About</a></div>
-      </nav></div>
-</header>
-<main class="page-content" aria-label="Content">
-      <div class="wrapper">
-        <style type="text/css" media="screen">
-  .container {
-    margin: 10px auto;
-    max-width: 600px;
-    text-align: center;
-  }
+    <link rel="stylesheet" type="text/css" href="/assets/css/styles.css">
+    <section class="content">
+        <div class="services-container">
+    <div style="display: flex; justify-content: end;">
+        <button id="open-menu" class="menu-button"><img src="/assets/images/menu-icon.svg"
+                class="menu-icon" /></button>
+    </div>
 
-  h1 {
-    margin: 30px 0;
-    font-size: 4em;
-    line-height: 1;
-    letter-spacing: -1px;
-  }
-</style>
+    <div class="sidebar" id="sidebar">
+    <button id="close-menu"><a href="javascript:void(0)" class="closebtn">&times;</a></button>
+    
 
-<div class="container">
-  <h1>404</h1>
 
-  <p><strong>Page not found :(</strong></p>
-  <p>The requested page could not be found.</p>
+<a href="http://localhost:4000/" class="menu-link">Home</a>
+
+
+
+
+
+<a href="http://localhost:4000/sas" class="menu-link">SAS</a>
+
+
+
 </div>
-      </div>
-    </main><footer class="footer-layout footer-background">
+    <div style="display: flex; flex-direction: column; justify-content: center; align-items: center; ">
+
+        <div class="logo-div">
+            <span class="span-animate"><img class="logo-img"
+                    src="/assets/images/SAS-01-light.svg" /></span>
+        </div>
+        <div class="text-div">
+            <span class="span-animate" style="margin-right: 4px;"> Specialized </span>
+            <span class="span-animate" style="margin-right: 4px;">Audio </span>
+            <span class="span-animate">Services</span>
+        </div>
+
+    </div>
+    <div class="services-row even">
+        <div style="background-color: violet;" class="services-div">
+        </div>
+        <div style="display: flex; flex-direction: column;">
+            <div class="services-text">Lorem ipsum dolor sit amet, consectetur
+                adipiscing elit. Mauris bibendum rutrum
+                quam, in bibendum nisl
+                condimentum quis. Ut at condimentum purus.</div>
+            <button class="read-more">Read more</button>
+        </div>
+    </div>
+    <div class="services-row odd">
+        <div style="background-color: aqua;" class="services-div">
+        </div>
+        <div style="display: flex; flex-direction: column;">
+            <div class="services-text">Donec porttitor placerat sodales. Ut eleifend
+                neque mauris, et pharetra augue rhoncus eget. Aliquam et ex ornare, lacinia ligula vel, gravida libero.
+            </div>
+            <button class="read-more">Read more</button>
+        </div>
+    </div>
+    <div class="services-row even">
+        <div style="background-color: rgb(89, 211, 33);" class="services-div">
+        </div>
+        <div style="display: flex; flex-direction: column;">
+            <div class="services-text">Integer nec pulvinar odio, quis eleifend sem.
+                Donec porttitor, purus eget maximus sagittis, erat felis lobortis orci</div>
+            <button class="read-more">Read more</button>
+        </div>
+    </div>
+    <div class="services-row odd">
+        <div style="background-color: rgb(224, 125, 32);" class="services-div">
+        </div>
+        <div style="display: flex; flex-direction: column;">
+            <div class="services-text">Donec tristique mi nec tellus ornare, id tempor
+                ex feugiat. Curabitur gravida pharetra cursus. Integer molestie faucibus metus, id facilisis sapien
+                dapibus quis.</div>
+            <button class="read-more">Read more</button>
+        </div>
+    </div>
+</div>
+    </section>
+    <footer class="footer-layout footer-background">
   <div class="footer-container">
     <div class="logos-mobile" style="display: flex; flex-direction: column; margin-left: 60px;">
       <img class="logo-image" style="margin-bottom: 20px; margin-right: 20px;"
@@ -143,6 +188,7 @@
   <div style="display: flex; flex-direction: row; flex: 100%; justify-content: center; margin-bottom: 26px; ">
     <span style="color: #C7C7C9">2022 | All rights reserved</span>
   </div>
-</footer></body>
+</footer>
+</body>
 
 </html>

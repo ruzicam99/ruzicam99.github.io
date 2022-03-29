@@ -1,0 +1,71 @@
+.logo-div
+    display: flex
+    margin-top: 40px
+
+.text-div
+    display: flex
+    flex-direction: row
+    font-size: 36px
+.services-container
+    height: fit-content
+    background-color: black
+    display: flex
+    flex-direction: column
+    padding-bottom: 40px
+.services-row
+    display: flex
+    justify-content: space-evenly
+    margin-top: 50px
+.even
+    flex-direction: row
+.odd
+    flex-direction: row-reverse
+.services-div
+    height: 200px
+    width: 200px
+.services-text
+    color: #B6B6B6
+    max-width: 200px
+    font-size: 20px
+.read-more
+    margin-top: 10px
+@media (max-width: 450px)
+    .services-row
+        justify-content: center
+        align-items: center
+    .even
+        flex-direction: column
+    .odd
+        flex-direction: column
+    .text-div
+        font-size: 22px
+    .logo-img
+        width: 100px
+        height: 100px
+
+@keyframes scale
+    100%
+        transform: scale(1)
+
+@keyframes fade-in
+    100%
+        opacity: 1
+        filter: blur(0)
+
+.span-animate
+    display: inline-block
+    color: #B6B6B6
+    opacity: 0
+    filter: blur(4px)
+    font-family: 'Roboto Condensed', sans-serif
+.span-animate:nth-child(1)
+    animation: fade-in 1s 0.1s forwards cubic-bezier(0.11, 0, 0.5, 0)
+
+.span-animate:nth-child(2)
+    animation: fade-in 1s 0.2s forwards cubic-bezier(0.11, 0, 0.5, 0)
+
+.span-animate:nth-child(3)
+    animation: fade-in 1s 0.3s forwards cubic-bezier(0.11, 0, 0.5, 0)
+
+.span-animate:nth-child(4)
+    animation: fade-in 1s 0.4s forwards cubic-bezier(0.11, 0, 0.5, 0)

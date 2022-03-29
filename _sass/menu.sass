@@ -1,0 +1,59 @@
+
+#sidebar
+    display: none
+    height: 100%
+    position: fixed
+    z-index: 1
+    top: 0
+    width: 250px
+    right: 0
+    background-color: #b6b6b6
+    overflow-x: hidden
+    transition: 0.5s
+    padding-top: 30px
+
+.show
+    display: block !important
+
+.menu-button
+    background: none
+    color: inherit
+    border: none
+    padding: 0
+    font: inherit
+    cursor: pointer
+    outline: inherit
+    margin-top: 60px
+    margin-right: 100px
+
+.menu-icon
+    height: 30px
+
+@media (max-width: 600px)
+    .menu-button
+        margin-right: 40px
+@media (max-width: 450px)
+    .menu-icon
+        height: 24px
+#sidebar .menu-link
+    padding: 8px 8px 8px 32px
+    text-decoration: none
+    font-size: 25px
+    color: #818181
+    display: block
+    transition: 0.3s
+#sidebar .closebtn
+    color: #818181
+    background-color: #b6b6b6
+    font-size: 34px
+    padding-left: 10px
+#sidebar .menu-link:hover
+    color: #f1f1f1
+#close-menu
+    background: none
+    color: inherit
+    border: none
+    padding: 0
+    font: inherit
+    cursor: pointer
+    outline: inherit

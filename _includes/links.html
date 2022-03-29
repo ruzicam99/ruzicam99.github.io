@@ -1,0 +1,7 @@
+{% for item in site.menu %}
+{% if item.title and item.url %}
+
+<a href="{{ site.url }}{{ site.baseurl }}{{ item.url }}" class="menu-link">{{ item.title }}</a>
+
+{% endif %}
+{% endfor %}
