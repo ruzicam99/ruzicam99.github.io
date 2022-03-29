@@ -40,8 +40,10 @@ phone_number2: 839820102
 menu:
   - title: Home
     url: /
-  - title: SAS
+  - title: Sas
     url: /sas
+  - title: Sas Shop
+    url: /sas/shop
 
 sass:
   sass_dir: _sass
