@@ -29,6 +29,9 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
 
+languages: ["en", "si"]
+exclude_from_localizations: ["javascript", "images", "css"]
+
 #footer info
 footer_subtitle_contact: Contact Us
 footer_subtitle_social: Follow Us
@@ -52,6 +55,7 @@ sass:
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-multiple-languages-plugin
 
 # Exclude from processing.
 # The following items will not be processed, by default.

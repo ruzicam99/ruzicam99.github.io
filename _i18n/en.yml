@@ -1,0 +1,19 @@
+footer: 
+  contactUs: Contact Us
+  followUs: Follow Us
+  name: Your Name
+  email: Yout Email
+  message: Your Message
+  submit: Submit
+  footerBottom: All rights reserved
+langs:
+  en: English
+  si: Slovenian
+main: 
+  text: Specialized Audio Services is a company that deals with repairing consumer and professional audio electronics. It also provides audio consulting, modification services and small shop for the handmade audio equipment.
+sas: 
+  repairText: High Fidelity audio, PA, Studio equipment repair. Repair service for all your audio gear.
+  consultingText: Audio consulting and planning services. PA systems, mixing consoles, connectivity solutions.
+  modificationText: Modifications of your existing audio system and other specialized services.
+  storeText: Handmade audio gear, project leftovers and more.
+  readMore: Read More
