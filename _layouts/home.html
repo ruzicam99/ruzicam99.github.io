@@ -4,14 +4,27 @@ layout: main
 <main role="main">
     <div style="height: 65vh;">
         <section class="main-banner" style="background-color: black;">
+            <div style="color: white; font-size: 28px; font-family: 'Roboto Condensed', sans-serif; display: flex;
+            flex-direction: row;
+            justify-content: center;
+            margin-top: 30px;">
+                {% for lang in site.languages %}
+                {% if forloop.index0 == 0 %}
+                <a href="{{ page.url }}" class="footer__link">{{ lang }}</a>
+                {% else %}
+                |<a href="/{{ lang }}{{ page.url }}" class="footer__link">{{ lang }}</a>
+                {% endif %}
+                {% endfor %}
+            </div>
             <div class="buttons-container">
                 <div class="buttons-container-inner">
-                    <button type="button" class="button-options button-options1"><a href="/sas"
-                            style="display: flex; justify-content: center; align-items: center;"> <img style="height: 28px; width: 28px; margin-right:12px; display: flex;
+                    <button type="button" class="button-options button-options1">
+                        <a href="{% tl sas %}" style="display: flex; justify-content: center; align-items: center;">
+                            <img style="height: 28px; width: 28px; margin-right:12px; display: flex;
                                 justify-content: center;
                                 align-items: center;" src="{{site.baseurl}}/assets/images/SAS-logo.svg"
                                 alt="LOGO">SAS</a></button>
-                    <button type="button" class="button-options button-options1"><a
+                    <button type="button" class="button-options button-options2"><a
                             style="display: flex; justify-content: center; align-items: center;" href="/as"> <img
                                 style="height: 28px; width: 28px; margin-right:12px;"
                                 src="{{site.baseurl}}/assets/images/as-logo.svg" alt="LOGO">AS</a></button>
@@ -19,11 +32,7 @@ layout: main
                 <div>
                     <div class="info-dropdown" id="option1">
                         <br>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec consectetur sit amet arcu id
-                        tincidunt. Sed quis justo ante. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Suspendisse ultrices quis turpis non convallis. Duis vehicula suscipit vestibulum. Duis egestas
-                        fringilla turpis, nec auctor odio posuere vitae. Praesent laoreet varius nisi, id venenatis
-                        justo convallis vel. Praesent accumsan accumsan magna, vitae ornare libero laoreet quis.
+                        {% t main.text %}
                     </div>
                     <div class="info-dropdown" id="option2">
                         <br>

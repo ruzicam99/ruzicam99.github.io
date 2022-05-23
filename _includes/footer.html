@@ -7,7 +7,7 @@
     </div>
   </div>
   <div class="footer-container">
-    <h2 style="color: #C7C7C9; justify-content: start; font-weight: bold;">{{site.footer_subtitle_contact}}</h2>
+    <h2 style="color: #C7C7C9; justify-content: start; font-weight: bold;">{% t footer.contactUs %}</h2>
     <div style="display: flex; flex-direction: column; margin-top: 20px; margin-bottom: 20px;">
       <div class="footer_text">
         <img src="{{site.baseurl}}/assets/images/email-icon.svg" class="social-icons"></img>
@@ -32,21 +32,22 @@
   <div class="footer-container">
     <form action="https://formspree.io/f/mgedkdka" method="POST">
       <div>
-        <input type="text" name="firstName" placeholder="Your Name" class="input-contact">
-        <input type="text" name="email" placeholder="Your Email" class="input-contact">
+        <input type="text" name="firstName" placeholder="{% t footer.name %}" class="input-contact">
+        <input type="text" name="email" placeholder="{% t footer.email %}" class="input-contact">
       </div>
       <div>
-        <textarea resize="false" name="message" placeholder="Your Message" class="input-contact input-text"></textarea>
+        <textarea resize="false" name="message" placeholder="{% t footer.message %}"
+          class="input-contact input-text"></textarea>
       </div>
       <div style="display: flex; justify-content: center; align-items: center; margin-right: 12px;">
-        <button type="submit" class="input-button">Submit</button>
+        <button type="submit" class="input-button">{% t footer.submit %}</button>
       </div>
     </form>
   </div>
   <div class="footer-container" style="align-items: center;">
     <div style="display: flex;">
       <h2 style="color: #C7C7C9; justify-content: start; font-weight: bold; margin-bottom: 50px;">
-        {{site.footer_subtitle_social}}</h2>
+        {% t footer.followUs %}</h2>
     </div>
     <div style="display: flex; flex-direction: row; margin-top:20px; margin-bottom: 60px; align-items: baseline;">
       <img style="margin-right: 26px;" src="{{site.baseurl}}/assets/images/facebook-icon.svg" alt="">
@@ -62,13 +63,6 @@
     </div>
   </div>
   <div style="display: flex; flex-direction: row; flex: 100%; justify-content: center; margin-bottom: 26px; ">
-    <span style="color: #C7C7C9">2022 | All rights reserved</span>
+    <span style="color: #C7C7C9">2022 | {% t footer.footerBottom %}</span>
   </div>
-  <!-- {% for lang in site.languages %}
-  {% if forloop.index0 == 0 %}
-  <a href="{{ page.url }}" class="footer__link">{{ lang }}</a>
-  {% else %}
-  |<a href="/{{ lang }}{{ page.url }}" class="footer__link">{{ lang }}</a>
-  {% endif %}
-  {% endfor %} -->
 </footer>
