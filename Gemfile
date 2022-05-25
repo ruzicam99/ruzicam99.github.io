@@ -29,4 +29,4 @@ end
 gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
 #gem 'font-awesome-sass', '~> 5.15.1'
 
-gem 'github-pages'
+# gem 'github-pages'
