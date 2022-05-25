@@ -22,7 +22,7 @@
     flex-direction: row-reverse
 .services-div
     height: 200px
-    width: 200px
+    width: 280px
 .services-text
     color: #B6B6B6
     max-width: 200px
@@ -63,16 +63,46 @@
     filter: blur(4px)
     font-family: 'Roboto Condensed', sans-serif
 .span-animate:nth-child(1)
-    animation: fade-in 1s 0.1s forwards cubic-bezier(0.11, 0, 0.5, 0)
+    animation: fade-in 4s 0.1s forwards cubic-bezier(0.11, 0, 0.5, 0)
 
 .span-animate:nth-child(2)
-    animation: fade-in 1s 0.2s forwards cubic-bezier(0.11, 0, 0.5, 0)
+    animation: fade-in 4s 0.2s forwards cubic-bezier(0.11, 0, 0.5, 0)
 
 .span-animate:nth-child(3)
-    animation: fade-in 1s 0.3s forwards cubic-bezier(0.11, 0, 0.5, 0)
+    animation: fade-in 4s 0.3s forwards cubic-bezier(0.11, 0, 0.5, 0)
 
 .span-animate:nth-child(4)
-    animation: fade-in 1s 0.4s forwards cubic-bezier(0.11, 0, 0.5, 0)
+    animation: fade-in 4s 0.4s forwards cubic-bezier(0.11, 0, 0.5, 0)
 .logo-div-subpage
     width: 70px
     height: 70px
+#slideshow
+    overflow: hidden
+    height: 510px
+    width: 728px
+    margin: 0 auto
+
+.slide
+    float: left
+    height: 510px
+    width: 728px
+
+    &-wrapper
+
+        width: calc(728px * 4)
+
+        animation: slide 15s ease infinite
+
+    @keyframes slide
+
+        20%
+            margin-left: 0px
+
+        40%
+            margin-left: calc(-728px * 1)
+
+        60%
+            margin-left: calc(-728px * 2)
+
+        80%
+            margin-left: calc(-728px * 3)

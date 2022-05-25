@@ -1,0 +1,63 @@
+---
+layout: subpage
+namespace: as
+permalink: /as/
+permalink_sl: /si/as
+---
+<div class="services-container">
+    <div style="display: flex; justify-content: end;">
+        <button id="open-menu" class="menu-button"><img src="{{site.baseurl}}/assets/images/menu-icon.svg"
+                class="menu-icon" /></button>
+    </div>
+
+    {% include menu.html %}
+    <div style="display: flex; flex-direction: column; justify-content: center; align-items: center; ">
+
+        <div class="logo-div">
+            <span class="span-animate"><img class="logo-img" src="{{site.baseurl}}/assets/images/as_light.svg" /></span>
+        </div>
+        <div class="text-div">
+            <span class="span-animate" style="margin-right: 4px;"> Andreas </span>
+            <span class="span-animate" style="margin-right: 4px;">Steffek </span>
+        </div>
+
+    </div>
+    <div class="services-row even" style="height: 280px">
+        <div class="services-div">
+            <img class="services-div" style="height: 280px; width: 200px"
+                src="{{site.baseurl}}/assets/images/DSC05580_edit.jpg" />
+        </div>
+        <div style="display: flex; flex-direction: column;">
+            <div class="services-text">{% t as.roomAcoustics %}</div>
+            <button class="read-more">{% t as.readMore %}</button>
+        </div>
+    </div>
+    <div class="services-row odd">
+        <div style="background-color: aqua;" class="services-div">
+            <img class="services-div" src="{{site.baseurl}}/assets/images/DSC05592.jpg" />
+        </div>
+        <div style="display: flex; flex-direction: column;">
+            <div class="services-text">{% t as.proRepair %}
+            </div>
+            <button class="read-more">{% t as.readMore %}</button>
+        </div>
+    </div>
+    <div class="services-row even">
+        <div style="background-color: rgb(89, 211, 33);" class="services-div">
+            <img class="services-div" src="{{site.baseurl}}/assets/images/DSC00929.jpg" />
+        </div>
+        <div style="display: flex; flex-direction: column;">
+            <div class="services-text">{% t as.customSolutions %}</div>
+            <button class="read-more">{% t as.readMore %}</button>
+        </div>
+    </div>
+    <div class="services-row odd">
+        <div style="background-color: rgb(224, 125, 32);" class="services-div">
+            <img class="services-div" src="{{site.baseurl}}/assets/images/DSC00902.jpg" />
+        </div>
+        <div style="display: flex; flex-direction: column;">
+            <div class="services-text">{% t as.shop %}</div>
+            <button class="read-more"><a>{% t as.readMore %}</a> </button>
+        </div>
+    </div>
+</div>

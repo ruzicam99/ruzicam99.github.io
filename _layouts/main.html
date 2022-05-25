@@ -2,13 +2,15 @@
 <html lang="{{ site.language }}" class="no-js">
 {% include head.html %}
 
-<body>
+<body style="height: 100vh; width: 100%;">
 
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/styles.css">
-    <section class="content">
+    <section class="content" style="height: 65%;">
         {{ content }}
     </section>
-    {% include footer.html %}
+    <div style="height: 35%;">
+        {% include footer.html %}
+    </div>
 </body>
 
 </html>

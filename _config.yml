@@ -45,6 +45,8 @@ menu:
     url: /
   - title: Sas
     url: /sas
+  - title: As
+    url: /as
   - title: Sas Shop
     url: /sas/shop
 

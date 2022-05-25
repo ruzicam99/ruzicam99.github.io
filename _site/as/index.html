@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="" class="no-js">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+
+    <title>Audio and acoustic services</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            if (!("ontouchstart" in document.documentElement)) {
+                $(".button-options1").hover(function () {
+                    $("#option1").animate({
+                        width: 'toggle',
+                        height: 'toggle'
+                    });
+                });
+                $(".button-options2").hover(function () {
+                    $("#option2").animate({
+                        width: 'toggle',
+                        height: 'toggle'
+                    });
+                });
+            }
+
+            $('#open-menu').click(function () {
+                $("#sidebar").addClass('show')
+                $(".content").addClass("blur")
+            });
+            $('#close-menu').click(function () {
+                $("#sidebar").removeClass('show')
+            });
+        });
+
+
+
+    </script>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <link rel="stylesheet" type="text/css" href="/assets/css/styles.css">
+    <section class="content">
+        <div class="services-container">
+    <div style="display: flex; justify-content: end;">
+        <button id="open-menu" class="menu-button"><img src="/assets/images/menu-icon.svg"
+                class="menu-icon" /></button>
+    </div>
+
+    <div class="sidebar" id="sidebar">
+    <button id="close-menu"><a href="javascript:void(0)" class="closebtn">&times;</a></button>
+
+    <div style="font-size: 28px; font-family: 'Roboto Condensed', sans-serif; display: flex;
+flex-direction: row;
+justify-content: center;
+margin-top: 30px;">
+    
+    
+    <a class="menu-link" style="padding: unset;" href="/as/" class="footer__link">en</a>
+    
+    
+    
+    |<a class="menu-link" style="padding: unset;" href="/si/as/" class="footer__link">si</a>
+    
+    
+</div>
+
+
+
+<a href="http://localhost:4000/" class="menu-link">Home</a>
+
+
+
+
+
+<a href="http://localhost:4000/sas" class="menu-link">Sas</a>
+
+
+
+
+
+<a href="http://localhost:4000/as" class="menu-link">As</a>
+
+
+
+
+
+<a href="http://localhost:4000/sas/shop" class="menu-link">Sas Shop</a>
+
+
+
+</div>
+    <div style="display: flex; flex-direction: column; justify-content: center; align-items: center; ">
+
+        <div class="logo-div">
+            <span class="span-animate"><img class="logo-img" src="/assets/images/as_light.svg" /></span>
+        </div>
+        <div class="text-div">
+            <span class="span-animate" style="margin-right: 4px;"> Andreas </span>
+            <span class="span-animate" style="margin-right: 4px;">Steffek </span>
+        </div>
+
+    </div>
+    <div class="services-row even" style="height: 280px">
+        <div class="services-div">
+            <img class="services-div" style="height: 280px; width: 200px"
+                src="/assets/images/DSC05580_edit.jpg" />
+        </div>
+        <div style="display: flex; flex-direction: column;">
+            <div class="services-text">Consulting, Planning, Concepts</div>
+            <button class="read-more">Read More</button>
+        </div>
+    </div>
+    <div class="services-row odd">
+        <div style="background-color: aqua;" class="services-div">
+            <img class="services-div" src="/assets/images/DSC05592.jpg" />
+        </div>
+        <div style="display: flex; flex-direction: column;">
+            <div class="services-text">Repair, Maintenance
+            </div>
+            <button class="read-more">Read More</button>
+        </div>
+    </div>
+    <div class="services-row even">
+        <div style="background-color: rgb(89, 211, 33);" class="services-div">
+            <img class="services-div" src="/assets/images/DSC00929.jpg" />
+        </div>
+        <div style="display: flex; flex-direction: column;">
+            <div class="services-text">Vintage module racking, Modifications, Custom units</div>
+            <button class="read-more">Read More</button>
+        </div>
+    </div>
+    <div class="services-row odd">
+        <div style="background-color: rgb(224, 125, 32);" class="services-div">
+            <img class="services-div" src="/assets/images/DSC00902.jpg" />
+        </div>
+        <div style="display: flex; flex-direction: column;">
+            <div class="services-text">ASAA units, Used gear</div>
+            <button class="read-more"><a>Read More</a> </button>
+        </div>
+    </div>
+</div>
+    </section>
+    <footer class="footer-layout footer-background">
+  <div class="footer-container">
+    <div class="logos-mobile" style="display: flex; flex-direction: column; margin-left: 60px;">
+      <img class="logo-image" style="margin-bottom: 20px; margin-right: 20px;"
+        src="/assets/images/SAS-logo.svg" alt="LOGO">
+      <img class="logo-image" src="/assets/images/as-logo.svg" alt="LOGO">
+    </div>
+  </div>
+  <div class="footer-container">
+    <h2 style="color: #C7C7C9; justify-content: start; font-weight: bold;">Contact Us</h2>
+    <div style="display: flex; flex-direction: column; margin-top: 20px; margin-bottom: 20px;">
+      <div class="footer_text">
+        <img src="/assets/images/email-icon.svg" class="social-icons"></img>
+        email1@email.com
+      </div>
+      <div class="footer_text">
+        <img src="/assets/images/phone-icon.svg" class="social-icons"></img>
+        89128210
+      </div>
+    </div>
+    <div style="display: flex; flex-direction: column;">
+      <div class="footer_text">
+        <img src="/assets/images/email-icon.svg" class="social-icons"></img>
+        email2@email.com
+      </div>
+      <div class="footer_text">
+        <img src="/assets/images/phone-icon.svg" class="social-icons"></img>
+        839820102
+      </div>
+      <span>"http://localhost:4000</span>
+    </div>
+  </div>
+  <div class="footer-container">
+    <form action="https://formspree.io/f/mgedkdka" method="POST">
+      <div>
+        <input type="text" name="firstName" placeholder="Your Name" class="input-contact">
+        <input type="text" name="email" placeholder="Yout Email" class="input-contact">
+      </div>
+      <div>
+        <textarea resize="false" name="message" placeholder="Your Message"
+          class="input-contact input-text"></textarea>
+      </div>
+      <div style="display: flex; justify-content: center; align-items: center; margin-right: 12px;">
+        <button type="submit" class="input-button">Submit</button>
+      </div>
+    </form>
+  </div>
+  <div class="footer-container" style="align-items: center;">
+    <div style="display: flex;">
+      <h2 style="color: #C7C7C9; justify-content: start; font-weight: bold; margin-bottom: 50px;">
+        Follow Us</h2>
+    </div>
+    <div style="display: flex; flex-direction: row; margin-top:20px; margin-bottom: 60px; align-items: baseline;">
+      <img style="margin-right: 26px;" src="/assets/images/facebook-icon.svg" alt="">
+      <img style="margin-right: 26px;" src="/assets/images/igIcon.svg" alt="">
+      <img style="margin-right: 26px;" src="/assets/images/linkedin-icon.svg" alt="">
+      <img style="margin-right: 26px;" src="/assets/images/ytIcon.svg" alt="">
+    </div>
+    <div style="display: flex; flex-direction: row; align-items: baseline;">
+      <img style="margin-right: 26px;" src="/assets/images/facebook-icon.svg" alt="">
+      <img style="margin-right: 26px;" src="/assets/images/igIcon.svg" alt="">
+      <img style="margin-right: 26px;" src="/assets/images/linkedin-icon.svg" alt="">
+      <img style="margin-right: 26px;" src="/assets/images/ytIcon.svg" alt="">
+    </div>
+  </div>
+  <div style="display: flex; flex-direction: row; flex: 100%; justify-content: center; margin-bottom: 26px; ">
+    <span style="color: #C7C7C9">2022 | All rights reserved</span>
+  </div>
+</footer>
+</body>
+
+</html>

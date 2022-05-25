@@ -33,6 +33,9 @@
                 $("#sidebar").removeClass('show')
             });
         });
+
+
+
     </script>
 
     <!-- Fonts -->
@@ -41,10 +44,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
 </head>
 
-<body>
+<body style="height: 100vh; width: 100%;">
 
     <link rel="stylesheet" type="text/css" href="/si/assets/css/styles.css">
-    <section class="content">
+    <section class="content" style="height: 65%;">
         <main role="main">
     <div style="height: 65vh;">
         <section class="main-banner" style="background-color: black;">
@@ -71,8 +74,8 @@
                                 align-items: center;" src="/si/assets/images/SAS-logo.svg"
                                 alt="LOGO">SAS</a></button>
                     <button type="button" class="button-options button-options2"><a
-                            style="display: flex; justify-content: center; align-items: center;" href="/as"> <img
-                                style="height: 28px; width: 28px; margin-right:12px;"
+                            style="display: flex; justify-content: center; align-items: center;" href="/si/as/">
+                            <img style="height: 28px; width: 28px; margin-right:12px;"
                                 src="/si/assets/images/as-logo.svg" alt="LOGO">AS</a></button>
                 </div>
                 <div>
@@ -98,7 +101,8 @@
 
 </main>
     </section>
-    <footer class="footer-layout footer-background">
+    <div style="height: 35%;">
+        <footer class="footer-layout footer-background">
   <div class="footer-container">
     <div class="logos-mobile" style="display: flex; flex-direction: column; margin-left: 60px;">
       <img class="logo-image" style="margin-bottom: 20px; margin-right: 20px;"
@@ -127,6 +131,7 @@
         <img src="/si/assets/images/phone-icon.svg" class="social-icons"></img>
         839820102
       </div>
+      <span>"http://localhost:4000/si</span>
     </div>
   </div>
   <div class="footer-container">
@@ -166,6 +171,7 @@
     <span style="color: #C7C7C9">2022 | Vse pravice pridržane</span>
   </div>
 </footer>
+    </div>
 </body>
 
 </html>
