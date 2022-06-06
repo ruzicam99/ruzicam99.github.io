@@ -35,9 +35,9 @@ exclude_from_localizations: ["javascript", "images", "css"]
 #footer info
 footer_subtitle_contact: Contact Us
 footer_subtitle_social: Follow Us
-email1: email1@email.com
+email1: info@specializedaudioservices.com
 email2: email2@email.com
-phone_number1: 89128210
+phone_number1: +386 70 190 210
 phone_number2: 839820102
 
 menu:
