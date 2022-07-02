@@ -59,6 +59,9 @@ plugins:
   - jekyll-feed
   - jekyll-multiple-languages-plugin
 
+# staticman comments configuration
+staticman_url: https://specialized-audio-services.netlify.app/v3/entry/github/ruzicam99/ruzicam99.github.io/master
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
