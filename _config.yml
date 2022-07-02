@@ -60,7 +60,7 @@ plugins:
   - jekyll-multiple-languages-plugin
 
 # staticman comments configuration
-staticman_url: https://specialized-audio-services.netlify.app/v3/entry/github/ruzicam99/ruzicam99.github.io/master
+staticman_url: https://review-bot-sas/v3/entry/github/ruzicam99/ruzicam99.github.io/master/comments
 
 # Exclude from processing.
 # The following items will not be processed, by default.
