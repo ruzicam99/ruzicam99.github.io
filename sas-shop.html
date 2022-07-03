@@ -1,6 +1,7 @@
 ---
 layout: subpage
 permalink: /sas/shop
+comments: true
 ---
 <div class="services-container">
     <div style="display: flex; justify-content: end;">
@@ -20,45 +21,31 @@ permalink: /sas/shop
             </div>
         </div>
         <div class="services-row"
-            style="justify-content: space-between; align-items: center; border: 1px solid grey; border-radius: 10px; flex-direction: column;">
-
-            <div id="slideshow">
-                <div class="slide-wrapper">
-
-                    <!-- Define each of the slides
-                 and write the content -->
-                    <div class="slide">
-                        <img src="{{site.baseurl}}/assets/images/di_box_2.jpg" style="width:100%">
-                    </div>
-                    <div class="slide">
-                        <img src="{{site.baseurl}}/assets/images/di_box_11.jpg" style="width:100%">
-                    </div>
-                    <div class="slide">
-                        <img src="{{site.baseurl}}/assets/images/di_box_3.jpg" style="width:100%">
-                    </div>
-                    <div class="slide">
-                        <img src="{{site.baseurl}}/assets/images/di_box_4.jpg" style="width:100%">
-                    </div>
-                </div>
+            style="justify-content: space-between; align-items: center; border: 1px solid grey; border-radius: 10px; flex-direction: column; width:70%">
+            <div id="captioned-gallery">
+                <figure class="slider">
+                    <figure>
+                        <img src="{{site.baseurl}}/assets/images/di_box_2.jpg" alt>
+                    </figure>
+                    <figure>
+                        <img src="{{site.baseurl}}/assets/images/di_box_11.jpg" alt>
+                    </figure>
+                    <figure>
+                        <img src="{{site.baseurl}}/assets/images/di_box_3.jpg" alt>
+                    </figure>
+                    <figure>
+                        <img src="{{site.baseurl}}/assets/images/di_box_4.jpg" alt>
+                    </figure>
+                </figure>
             </div>
             <div
                 style="display: flex; flex-direction: column;  margin:14px; max-width: 60%; justify-content: end; align-items: center;">
                 <span style="color: white;">{% t sas.roseText %}</span>
-                <button style="max-width: 20%; min-width: 15%; margin-top: 40px" class="read-more"><a
+                <button style="max-width: 20%; min-width: 45%; margin-top: 40px" class="read-more"><a
                         href="mailto:info@specializedaudioservices.com">{% t sas.contactUs %}</a></button>
 
             </div>
-
+            {% include all-comments.html %}
         </div>
-        <form method="POST"
-            action="https://review-bot-sas.herokuapp.com/v2/entry/ruzicam99/ruzicam99.github.io/master/comments">
 
-            <!-- e.g. "2016-01-02-this-is-a-post" -->
-            <input type="hidden" value="{{ page.slug }}">
-            <label><input name="fields[name]" type="text">Name</label>
-            <label><input name="fields[email]" type="email">E-mail</label>
-            <label><textarea name="fields[message]"></textarea>Message</label>
-
-            <button type="submit">Go!</button>
-        </form>
     </div>

@@ -109,47 +109,65 @@ margin-top: 30px;">
             </div>
         </div>
         <div class="services-row"
-            style="justify-content: space-between; align-items: center; border: 1px solid grey; border-radius: 10px; flex-direction: column;">
-
-            <div id="slideshow">
-                <div class="slide-wrapper">
-
-                    <!-- Define each of the slides
-                 and write the content -->
-                    <div class="slide">
-                        <img src="/assets/images/di_box_2.jpg" style="width:100%">
-                    </div>
-                    <div class="slide">
-                        <img src="/assets/images/di_box_11.jpg" style="width:100%">
-                    </div>
-                    <div class="slide">
-                        <img src="/assets/images/di_box_3.jpg" style="width:100%">
-                    </div>
-                    <div class="slide">
-                        <img src="/assets/images/di_box_4.jpg" style="width:100%">
-                    </div>
-                </div>
+            style="justify-content: space-between; align-items: center; border: 1px solid grey; border-radius: 10px; flex-direction: column; width:70%">
+            <div id="captioned-gallery">
+                <figure class="slider">
+                    <figure>
+                        <img src="/assets/images/di_box_2.jpg" alt>
+                    </figure>
+                    <figure>
+                        <img src="/assets/images/di_box_11.jpg" alt>
+                    </figure>
+                    <figure>
+                        <img src="/assets/images/di_box_3.jpg" alt>
+                    </figure>
+                    <figure>
+                        <img src="/assets/images/di_box_4.jpg" alt>
+                    </figure>
+                </figure>
             </div>
             <div
                 style="display: flex; flex-direction: column;  margin:14px; max-width: 60%; justify-content: end; align-items: center;">
                 <span style="color: white;">Single channel, active DI box that comes in 2 flavours. High end version (gold XLR pins on XLR connector) with Lundahl transformer and all film capacitors in the signal path. Budget version (nickel XLR pins on XLR connector) with OEP transformer and film capacitors on the input.</span>
-                <button style="max-width: 20%; min-width: 15%; margin-top: 40px" class="read-more"><a
+                <button style="max-width: 20%; min-width: 45%; margin-top: 40px" class="read-more"><a
                         href="mailto:info@specializedaudioservices.com">Contact Us</a></button>
 
             </div>
+            <section class="comments" id="comment-section">
+    <hr>
 
+    
+
+    <!-- New comment form -->
+    <div id="respond" class="comment__new">
+        <div style="margin-bottom: 10px;">
+    <h2 style="color: #C7C7C9; text-align: center;">Leave a comment</h2>
+    <form method="POST"
+        action="https://review-bot-sas.herokuapp.com/v2/entry/ruzicam99/ruzicam99.github.io/master/comments">
+        <!-- <div class="comment-form">
+            <input
+            name="options[redirect]"
+            type="hidden"
+            value="http://localhost:4000/sas/shop"
+          /> -->
+        <input type="hidden" value="">
+        <input class="input-contact" name="fields[name]" placeholder="Name (requierd)" type="text">
+        <input class="input-contact" name="fields[email]" placeholder="Email (requierd)"
+            type="email">
+</div>
+<div style="display: flex; flex-direction: row; align-items: center; justify-content: center;">
+    <textarea name="fields[message]" placeholder="Message (requierd)" class="
+                input-contact input-text"></textarea>
+</div>
+<div style="display: flex; flex-direction: row; justify-content: center; align-items: center; ">
+    <button type="submit" class="input-button" style="margin-bottom: 10px">Submit</button>
+</div>
+</form>
+</div>
+    </div>
+</section>
         </div>
-        <form method="POST"
-            action="https://review-bot-sas.herokuapp.com/v2/entry/ruzicam99/ruzicam99.github.io/master/comments">
 
-            <!-- e.g. "2016-01-02-this-is-a-post" -->
-            <input type="hidden" value="">
-            <label><input name="fields[name]" type="text">Name</label>
-            <label><input name="fields[email]" type="email">E-mail</label>
-            <label><textarea name="fields[message]"></textarea>Message</label>
-
-            <button type="submit">Go!</button>
-        </form>
     </div>
     </section>
     <footer class="footer-layout footer-background" style="height: 100%">

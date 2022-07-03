@@ -6,6 +6,10 @@ footer:
   message: Your Message
   submit: Submit
   footerBottom: All rights reserved
+  commentTitle: Leave a comment
+  commentMessage: Message (requierd)
+  commentName: Name (requierd)
+  commentEmail: Email (requierd)
 langs:
   en: English
   si: Slovenian

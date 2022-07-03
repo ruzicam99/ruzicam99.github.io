@@ -1,0 +1,24 @@
+<div style="margin-bottom: 10px;">
+    <h2 style="color: #C7C7C9; text-align: center;">{% translate footer.commentTitle %}</h2>
+    <form method="POST"
+        action="https://review-bot-sas.herokuapp.com/v2/entry/ruzicam99/ruzicam99.github.io/master/comments">
+        <!-- <div class="comment-form">
+            <input
+            name="options[redirect]"
+            type="hidden"
+            value="{{ page.url | absolute_url }}"
+          /> -->
+        <input type="hidden" value="{{ page.slug }}">
+        <input class="input-contact" name="fields[name]" placeholder="{% translate footer.commentName %}" type="text">
+        <input class="input-contact" name="fields[email]" placeholder="{% translate footer.commentEmail %}"
+            type="email">
+</div>
+<div style="display: flex; flex-direction: row; align-items: center; justify-content: center;">
+    <textarea name="fields[message]" placeholder="{% translate footer.commentMessage %}" class="
+                input-contact input-text"></textarea>
+</div>
+<div style="display: flex; flex-direction: row; justify-content: center; align-items: center; ">
+    <button type="submit" class="input-button" style="margin-bottom: 10px">{% translate footer.submit %}</button>
+</div>
+</form>
+</div>

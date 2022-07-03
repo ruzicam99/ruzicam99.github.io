@@ -6,6 +6,10 @@ footer:
   message: Vaše Sporočilo
   submit: Pošljite
   footerBottom: Vse pravice pridržane
+  commentTitle: Pustite komentar
+  commentMessage: Sporočilo (obvezno)
+  commentName: Ime (obvezno)
+  commentEmail: Email (obvezno)
 langs:
   en: Angleščina
   si: Slovenščina

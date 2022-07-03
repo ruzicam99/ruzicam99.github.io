@@ -47,6 +47,41 @@
         width: 100px
         height: 100px
 
+@media (max-width: 590px)
+    .comment-form
+        flex-direction: column !important
+
+@media (max-width: 1070px)
+    .slide
+        display: flex
+        align-items: center
+        max-width: 650px !important
+        justify-content: center
+
+        &-wrapper
+
+            width: calc(650px * 4) !important
+
+            animation: slide 15s ease infinite
+
+        @keyframes slide
+
+            20%
+                margin-left: 0px !important
+
+            40%
+                margin-left: calc(-650px * 1) !important
+
+            60%
+                margin-left: calc(-650px * 2) !important
+
+            80%
+                margin-left: calc(-650px * 3) !important
+    .slide-image
+        width: 70% !important
+    .slide-container
+        max-width: 650px !important
+
 @keyframes scale
     100%
         transform: scale(1)
@@ -76,33 +111,67 @@
 .logo-div-subpage
     width: 70px
     height: 70px
-#slideshow
+
+.comment-form
+    display: flex
+    flex-direction: row
+    align-items: center
+
+@keyframes slidy
+    0%
+        left: 0%
+    20%
+        left: 0%
+    25%
+        left: -100%
+    45%
+        left: -100%
+    50%
+        left: -200%
+    70%
+        left: -200%
+    75%
+        left: -300%
+    95%
+        left: -300%
+    100%
+        left: -400%
+
+*
+    box-sizing: border-box
+
+body, figure
+    margin: 0
+    background: #101010
+    font-family: Istok Web, sans-serif
+    font-weight: 100
+
+div#captioned-gallery
+    width: 85%
     overflow: hidden
-    height: 510px
-    width: 728px
-    margin: 0 auto
+    margin-top: 15px
+    border-radius: 4px
 
-.slide
-    float: left
-    height: 510px
-    width: 728px
+figure.slider
+    position: relative
+    width: 500%
+    font-size: 0
+    animation: 30s slidy infinite
 
-    &-wrapper
+figure.slider figure
+    width: 20%
+    height: auto
+    display: inline-block
+    position: inherit
 
-        width: calc(728px * 4)
-
-        animation: slide 15s ease infinite
-
-    @keyframes slide
-
-        20%
-            margin-left: 0px
-
-        40%
-            margin-left: calc(-728px * 1)
-
-        60%
-            margin-left: calc(-728px * 2)
-
-        80%
-            margin-left: calc(-728px * 3)
+figure.slider img
+    width: 100%
+    height: auto
+figure.slider figure figcaption
+    position: absolute
+    bottom: 0
+    background: rgba(0,0,0,0.4)
+    color: #fff
+    width: 100%
+    font-size: 2rem
+    padding: .6rem
