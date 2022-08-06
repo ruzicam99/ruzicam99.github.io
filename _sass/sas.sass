@@ -51,36 +51,36 @@
     .comment-form
         flex-direction: column !important
 
-@media (max-width: 1070px)
-    .slide
-        display: flex
-        align-items: center
-        max-width: 650px !important
-        justify-content: center
+// @media (max-width: 1070px)
+//     .slide
+//         display: flex
+//         align-items: center
+//         max-width: 650px !important
+//         justify-content: center
 
-        &-wrapper
+//         &-wrapper
 
-            width: calc(650px * 4) !important
+//             width: calc(650px * 7) !important
 
-            animation: slide 15s ease infinite
+//             animation: slide 15s ease infinite
 
-        @keyframes slide
+//         @keyframes slide
 
-            20%
-                margin-left: 0px !important
+//             20%
+//                 margin-left: 0px !important
 
-            40%
-                margin-left: calc(-650px * 1) !important
+//             40%
+//                 margin-left: calc(-650px * 1) !important
 
-            60%
-                margin-left: calc(-650px * 2) !important
+//             60%
+//                 margin-left: calc(-650px * 2) !important
 
-            80%
-                margin-left: calc(-650px * 3) !important
-    .slide-image
-        width: 70% !important
-    .slide-container
-        max-width: 650px !important
+//             80%
+//                 margin-left: calc(-650px * 3) !important
+//     .slide-image
+//         width: 70% !important
+//     .slide-container
+//         max-width: 650px !important
 
 @keyframes scale
     100%
@@ -173,5 +173,44 @@ figure.slider figure figcaption
     background: rgba(0,0,0,0.4)
     color: #fff
     width: 100%
-    font-size: 2rem
+    font-size: 25px
     padding: .6rem
+
+// GALERY
+div.gallery
+    border: 1px solid #ccc
+    margin: 4px
+
+div.gallery:hover
+    border: 1px solid #777
+
+div.gallery img
+    width: 100%
+    height: auto
+
+div.desc
+    padding: 15px
+    text-align: center
+    color: white
+
+*
+    box-sizing: border-box
+
+.responsive
+    padding: 0 6px
+    float: left
+    width: 24.99999%
+
+@media (max-width: 700px)
+    .responsive
+        width: 49.99999%
+        margin: 6px 0
+
+@media (max-width: 500px)
+    .responsive
+        width: 100%
+
+.clearfix:after
+    content: ""
+    display: table
+    clear: both

@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="" class="no-js">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+
+    <title>Audio and acoustic services</title>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            if (!("ontouchstart" in document.documentElement)) {
+                $(".button-options1").hover(function () {
+                    $("#option1").animate({
+                        width: 'toggle',
+                        height: 'toggle'
+                    });
+                });
+                $(".button-options2").hover(function () {
+                    $("#option2").animate({
+                        width: 'toggle',
+                        height: 'toggle'
+                    });
+                });
+            }
+
+            $('#open-menu').click(function () {
+                $("#sidebar").addClass('show')
+                $(".content").addClass("blur")
+            });
+            $('#close-menu').click(function () {
+                $("#sidebar").removeClass('show')
+            });
+        });
+
+
+
+    </script>
+    <link rel="shortcut icon" type="image/png" href="/si/assets/images/SAS-logo.svg">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <link rel="stylesheet" type="text/css" href="/si/assets/css/styles.css">
+    <section class="content">
+        <div class="services-container">
+    <div style="display: flex; justify-content: end;">
+        <button id="open-menu" class="menu-button"><img src="/si/assets/images/menu-icon.svg"
+                class="menu-icon" /></button>
+    </div>
+
+    <div class="sidebar" id="sidebar">
+    <button id="close-menu"><a href="javascript:void(0)" class="closebtn">&times;</a></button>
+
+    <div style="font-size: 28px; font-family: 'Roboto Condensed', sans-serif; display: flex;
+flex-direction: row;
+justify-content: center;
+margin-top: 30px;">
+    
+    
+    <a class="menu-link" style="padding: unset;" href="/sas/repair" class="footer__link">en</a>
+    
+    
+    
+    |<a class="menu-link" style="padding: unset;" href="/si/sas/repair" class="footer__link">si</a>
+    
+    
+</div>
+
+
+
+<a href="http://localhost:4000/si/" class="menu-link">Home</a>
+
+
+
+
+
+<a href="http://localhost:4000/si/sas" class="menu-link">Sas</a>
+
+
+
+
+
+<a href="http://localhost:4000/si/as" class="menu-link">As</a>
+
+
+
+
+
+<a href="http://localhost:4000/si/sas/shop" class="menu-link">Sas Shop</a>
+
+
+
+
+
+<a href="http://localhost:4000/si/sas/repair" class="menu-link">Sas Repair</a>
+
+
+
+
+
+<a href="http://localhost:4000/si/sas/consulting" class="menu-link">Sas Consultation</a>
+
+
+
+
+
+<a href="http://localhost:4000/si/sas/modifications" class="menu-link">Sas Modifications</a>
+
+
+
+</div>
+    <div style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+        <div style="display: flex; flex-direction: row; align-items: center;">
+            <div class="logo-div-subpage">
+                <span class="span-animate"><img class="logo-div-subpage"
+                        src="/si/assets/images/SAS-01-light.svg" /></span>
+            </div>
+            <div class="text-div" style="margin-left: 10px">
+                <span class="span-animate" style="margin-right: 4px;"> Repair </span>
+            </div>
+        </div>
+
+        <div class="services-row">
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="/si/assets/images/repair/1.jpg">
+                        <img src="/si/assets/images/repair/1.jpg" width="600" height="400">
+                    </a>
+                    <div class="desc">500 hours of total repair and around 3500 capacitors changed on Telefunken M15
+                        tape
+                        machine</div>
+                </div>
+            </div>
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="/si/assets/images/repair/2.jpg">
+                        <img src="/si/assets/images/repair/2.jpg" width="600" height="400">
+                    </a>
+                    <div class="desc">Changing connector on headset microphone</div>
+                </div>
+            </div>
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="/si/assets/images/repair/7.jpg">
+                        <img src="/si/assets/images/repair/7.jpg" width="600" height="400">
+                    </a>
+                    <div class="desc">Making custom cables using Neutrik connectors and Klotz audio cables </div>
+                </div>
+            </div>
+
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="/si/assets/images/repair/4.jpg">
+                        <img src="/si/assets/images/repair/4.jpg" width="600" height="400">
+                    </a>
+                    <div class="desc">Cleaning, repairing faults and recapping power supplyy on Allen&Heath XB-14-2
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="services-row">
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="/si/assets/images/repair/14.jpg">
+                        <img src="/si/assets/images/repair/14.jpg" width="600" height="400">
+                    </a>
+                    <div class="desc">Recapping and repairing Technics SU-8080 </div>
+                </div>
+            </div>
+
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="/si/assets/images/repair/11.jpg">
+                        <img src="/si/assets/images/repair/11.jpg" width="600" height="400">
+                    </a>
+                    <div class="desc">Making custom power cables </div>
+                </div>
+            </div>
+
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="/si/assets/images/repair/3.jpg">
+                        <img src="/si/assets/images/repair/3.jpg" width="600" height="400">
+                    </a>
+                    <div class="desc">Cleaning potentiometers and repairing faults on Gallien Krueger 2001 RB</div>
+                </div>
+            </div>
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="/si/assets/images/repair/10.jpg">
+                        <img src="/si/assets/images/repair/10.jpg" width="600" height="400">
+                    </a>
+                    <div class="desc">Making custom high end cables using Neutrik silent plug and Rean connectors and
+                        Swiss cable company Gotham Audio </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="services-row">
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="/si/assets/images/repair/9.jpg">
+                        <img src="/si/assets/images/repair/9.jpg" width="600" height="400">
+                    </a>
+                    <div class="desc">Making custom high end cables using Neutrik and Rean connectors and Swiss cable
+                        company Gotham Audio </div>
+                </div>
+            </div>
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="/si/assets/images/repair/8.jpg">
+                        <img src="/si/assets/images/repair/8.jpg" width="600" height="400">
+                    </a>
+                    <div class="desc">Making custom cables for testing Telefunken M15 tape machine </div>
+                </div>
+            </div>
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="/si/assets/images/repair/6.jpg">
+                        <img src="/si/assets/images/repair/6.jpg" width="600" height="400">
+                    </a>
+                    <div class="desc">General overhaul of Roland VK-7 keyboard </div>
+                </div>
+            </div>
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="/si/assets/images/repair/12.jpg">
+                        <img src="/si/assets/images/repair/12.jpg" width="600" height="400">
+                    </a>
+                    <div class="desc">Pulling speaker cables (40 meters) through studio for guitar reamp and making 10
+                        speakON connectors for easy access </div>
+                </div>
+            </div>
+        </div>
+        <div class="services-row">
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="/si/assets/images/repair/13.jpg">
+                        <img src="/si/assets/images/repair/13.jpg" width="600" height="400">
+                    </a>
+                    <div class="desc">Recapping AKG microphone </div>
+                </div>
+            </div>
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="/si/assets/images/repair/21.jpg">
+                        <img src="/si/assets/images/repair/21.jpg" width="600" height="400">
+                    </a>
+                    <div class="desc">Recapping Genelec 1092A subwoofer </div>
+                </div>
+            </div>
+
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="/si/assets/images/repair/15.jpg">
+                        <img src="/si/assets/images/repair/15.jpg" width="600" height="400">
+                    </a>
+                    <div class="desc">Recapping and repairing Telefunken W695A EQ </div>
+                </div>
+            </div>
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="/si/assets/images/repair/19.jpg">
+                        <img src="/si/assets/images/repair/19.jpg" width="600" height="400">
+                    </a>
+                    <div class="desc">Recapping EMES White TV active monitor amplifier and power supply </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="services-row">
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="/si/assets/images/repair/17.jpg">
+                        <img src="/si/assets/images/repair/17.jpg" width="600" height="400">
+                    </a>
+                    <div class="desc">Recapping and replacing tubes on Fender Bassbreaker </div>
+                </div>
+            </div>
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="/si/assets/images/repair/18.jpg">
+                        <img src="/si/assets/images/repair/18.jpg" width="600" height="400">
+                    </a>
+                    <div class="desc">Recapping and replacing tubes on Laney LC50 </div>
+                </div>
+            </div>
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="/si/assets/images/repair/16.jpg">
+                        <img src="/si/assets/images/repair/16.jpg" width="600" height="400">
+                    </a>
+                    <div class="desc">Recapping and replacing Darlington packs on Pioneer A-790 </div>
+                </div>
+            </div>
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="/si/assets/images/repair/20.jpg">
+                        <img src="/si/assets/images/repair/20.jpg" width="600" height="400">
+                    </a>
+                    <div class="desc">Recapping everything on Roland Jazz Chorus 120 </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="services-row">
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="/si/assets/images/repair/5.jpg">
+                        <img src="/si/assets/images/repair/5.jpg" width="600" height="400">
+                    </a>
+                    <div class="desc">Complete overhaul of Crown Macro-tech amplifiers </div>
+                </div>
+            </div>
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="/si/assets/images/repair/22.jpg">
+                        <img src="/si/assets/images/repair/22.jpg" width="600" height="400">
+                    </a>
+                    <div class="desc">Recapping PS on Urei 1178 </div>
+                </div>
+            </div>
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="/si/assets/images/repair/23.jpg">
+                        <img src="/si/assets/images/repair/23.jpg" width="600" height="400">
+                    </a>
+                    <div class="desc">Recapping SPL Qure </div>
+                </div>
+            </div>
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="/si/assets/images/repair/24.jpg">
+                        <img src="/si/assets/images/repair/24.jpg" width="600" height="400">
+                    </a>
+                    <div class="desc">Recapping TL Audio 5051 channel strip </div>
+                </div>
+            </div>
+        </div>
+        <div class="services-row">
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="/si/assets/images/repair/31.jpg">
+                        <img src="/si/assets/images/repair/31.jpg" width="600" height="400">
+                    </a>
+                    <div class="desc">Repairing another Shure SM57 broken capsule </div>
+                </div>
+            </div>
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="/si/assets/images/repair/26.jpg">
+                        <img src="/si/assets/images/repair/26.jpg" width="600" height="400">
+                    </a>
+                    <div class="desc">Repairing amplifier, recapping and repairing speaker cone on JBL EON 15 </div>
+                </div>
+            </div>
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="/si/assets/images/repair/32.jpg">
+                        <img src="/si/assets/images/repair/32.jpg" width="600" height="400">
+                    </a>
+                    <div class="desc">Repairing broken AKG C547 microphone </div>
+                </div>
+            </div>
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="/si/assets/images/repair/28.jpg">
+                        <img src="/si/assets/images/repair/28.jpg" width="600" height="400">
+                    </a>
+                    <div class="desc">Repairing and recapping AKG microphone </div>
+                </div>
+            </div>
+        </div>
+        <div class="services-row">
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="/si/assets/images/repair/25.jpg">
+                        <img src="/si/assets/images/repair/25.jpg" width="600" height="400">
+                    </a>
+                    <div class="desc">Repairing AKG SR40 receiver for instruments </div>
+                </div>
+            </div>
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="/si/assets/images/repair/29.jpg">
+                        <img src="/si/assets/images/repair/29.jpg" width="600" height="400">
+                    </a>
+                    <div class="desc">Repairing and recapping AKG microphones </div>
+                </div>
+            </div>
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="/si/assets/images/repair/30.jpg">
+                        <img src="/si/assets/images/repair/30.jpg" width="600" height="400">
+                    </a>
+                    <div class="desc">Repairing and recapping DBX 900 series PS </div>
+                </div>
+            </div>
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="/si/assets/images/repair/27.jpg">
+                        <img src="/si/assets/images/repair/27.jpg" width="600" height="400">
+                    </a>
+                    <div class="desc">Repairing and adding ventilation fans for cooling tubes and transformer on VOX
+                        AC30 CC2 </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="services-row">
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="/si/assets/images/repair/35.jpg">
+                        <img src="/si/assets/images/repair/35.jpg" width="600" height="400">
+                    </a>
+                    <div class="desc">Repairing loose wires in NeumannGefell CMV563 </div>
+                </div>
+            </div>
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="/si/assets/images/repair/33.jpg">
+                        <img src="/si/assets/images/repair/33.jpg" width="600" height="400">
+                    </a>
+                    <div class="desc">Repairing broken connectors on Reference Amplifier R300 </div>
+                </div>
+            </div>
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="/si/assets/images/repair/34.jpg">
+                        <img src="/si/assets/images/repair/34.jpg" width="600" height="400">
+                    </a>
+                    <div class="desc">Repairing display fault on Ensoniq DP4+ unit </div>
+                </div>
+            </div>
+
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="/si/assets/images/repair/36.jpg">
+                        <img src="/si/assets/images/repair/36.jpg" width="600" height="400">
+                    </a>
+                    <div class="desc">Repairing phantom power PS on GMPS 18 power supply unit for mixing console </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="services-row">
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="/si/assets/images/repair/37.jpg">
+                        <img src="/si/assets/images/repair/37.jpg" width="600" height="400">
+                    </a>
+                    <div class="desc">Replacing rubber suspension on EMES speaker driver </div>
+                </div>
+            </div>
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="/si/assets/images/repair/38.jpg">
+                        <img src="/si/assets/images/repair/38.jpg" width="600" height="400">
+                    </a>
+                    <div class="desc">Replacing speaker cone on 15 inch speaker </div>
+                </div>
+            </div>
+
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="/si/assets/images/repair/41.jpg">
+                        <img src="/si/assets/images/repair/41.jpg" width="600" height="400">
+                    </a>
+                    <div class="desc">Rewriting patchbay names and paths - before </div>
+                </div>
+            </div>
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="/si/assets/images/repair/40.jpg">
+                        <img src="/si/assets/images/repair/40.jpg" width="600" height="400">
+                    </a>
+                    <div class="desc">Rewriting patchbay names and paths - after </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="services-row">
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="/si/assets/images/repair/39.jpg">
+                        <img src="/si/assets/images/repair/39.jpg" width="600" height="400">
+                    </a>
+                    <div class="desc">Replacing XLR connectors on Neumann Microphone Distributor </div>
+                </div>
+            </div>
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="/si/assets/images/repair/42.jpg">
+                        <img src="/si/assets/images/repair/42.jpg" width="600" height="400">
+                    </a>
+                    <div class="desc">Servicing disply and recapping PS on AKAI S1000HD </div>
+                </div>
+            </div>
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="/si/assets/images/repair/43.jpg">
+                        <img src="/si/assets/images/repair/43.jpg" width="600" height="400">
+                    </a>
+                    <div class="desc">Telefunken M15 tape machine cards that were recapped and repaired </div>
+                </div>
+            </div>
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="/si/assets/images/repair/44.jpg">
+                        <img src="/si/assets/images/repair/44.jpg" width="600" height="400">
+                    </a>
+                    <div class="desc">Total rebuild and replacing capacitors, spring reverb on Pearl Sunflower 1200
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+</div>
+    </section>
+
+    <footer class="footer-layout footer-background" style="height: 100%">
+  <div class="footer-container">
+    <div class="logos-mobile" style="display: flex; flex-direction: column; margin-left: 60px;">
+      <img class="logo-image" style="margin-bottom: 20px; margin-right: 20px;"
+        src="/si/assets/images/SAS-logo.svg" alt="LOGO">
+      <img class="logo-image" src="/si/assets/images/as-logo.svg" alt="LOGO">
+    </div>
+  </div>
+  <div class="footer-container">
+    <h2 style="color: #C7C7C9; justify-content: start; font-weight: bold;">Kontaktirajte Nas</h2>
+    <div style="display: flex; flex-direction: column; margin-top: 20px; margin-bottom: 20px;">
+      <div class="footer_text">
+        <img src="/si/assets/images/email-icon.svg" class="social-icons"></img>
+        info@specializedaudioservices.com
+      </div>
+      <div class="footer_text">
+        <img src="/si/assets/images/phone-icon.svg" class="social-icons"></img>
+        +386 70 190 210
+      </div>
+    </div>
+    <div style="display: flex; flex-direction: column;">
+      <div class="footer_text">
+        <img src="/si/assets/images/email-icon.svg" class="social-icons"></img>
+        andreas.steffek@asaa.at
+      </div>
+      <div class="footer_text">
+        <!-- <img src="/si/assets/images/phone-icon.svg" class="social-icons"></img> -->
+
+      </div>
+
+    </div>
+  </div>
+  <div class="footer-container">
+    <form action="https://formspree.io/f/mgedkdka" method="POST">
+      <div style="width: 100%;">
+        <input style="width: 95%;" type="text" name="firstName" placeholder="Vaše Ime"
+          class="input-contact">
+        <input style="margin-top: 15px; width: 95%;" type="text" name="email" placeholder="Vaš Email Naslov"
+          class="input-contact">
+      </div>
+      <div>
+        <textarea resize="false" name="message" placeholder="Vaše Sporočilo"
+          class="input-contact input-text"></textarea>
+      </div>
+      <div style="display: flex; justify-content: center; align-items: center; margin-right: 12px; margin-top: 15px;">
+        <button type="submit" class="input-button">Pošljite</button>
+      </div>
+    </form>
+  </div>
+  <div class="footer-container" style="align-items: center;">
+    <h2 style="color: #C7C7C9; justify-content: start; font-weight: bold; margin-bottom:10px;">
+      Sledite Nam</h2><br>
+    <div
+      style="display: flex; flex-direction: row; margin-top:10px; margin-left: 40px; margin-bottom: 40px; align-items: center;">
+      <a target="_blank" href="https://www.facebook.com/Specialized-Audio-Services-101258065956579"><img
+          style="margin-right: 26px;" src="/si/assets/images/facebook-icon.svg" alt=""></a>
+      <a target="_blank" href="https://www.instagram.com/specializedaudioservices/"><img style="margin-right: 26px;"
+          src="/si/assets/images/igIcon.svg" alt=""></a>
+      <!-- <img style="margin-right: 26px;" src="/si/assets/images/linkedin-icon.svg" alt=""> -->
+      <!-- <img style="margin-right: 26px;" src="/si/assets/images/ytIcon.svg" alt=""> -->
+    </div>
+
+    <div style="display: flex; flex-direction: row; align-items: flex-center; margin-left: 40px;">
+      <a target="_blank" href="https://www.facebook.com/andreas.steffek"><img style="margin-right: 26px;"
+          src="/si/assets/images/facebook-icon.svg" alt=""></a>
+      <a target="_blank" href="https://www.instagram.com/andreas.steffek"><img style="margin-right: 26px;"
+          src="/si/assets/images/igIcon.svg" alt=""></a>
+      <!-- <img style="margin-right: 26px;" src="/si/assets/images/linkedin-icon.svg" alt=""> -->
+      <!-- <img style="margin-right: 26px;" src="/si/assets/images/ytIcon.svg" alt=""> -->
+    </div>
+    <br><br>
+  </div>
+  <div style="display: flex; flex-direction: row; flex: 100%; justify-content: center; margin-bottom: 34px; ">
+    <span style="color: #C7C7C9">2022 | Vse pravice pridržane</span>
+  </div>
+</footer>
+</body>
+
+</html>

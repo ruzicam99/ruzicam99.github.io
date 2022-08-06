@@ -49,6 +49,12 @@ menu:
     url: /as
   - title: Sas Shop
     url: /sas/shop
+  - title: Sas Repair
+    url: /sas/repair
+  - title: Sas Consultation
+    url: /sas/consulting
+  - title: Sas Modifications
+    url: /sas/modifications
 
 sass:
   sass_dir: _sass
