@@ -31,3 +31,58 @@ as:
   shop: ASAA units, Used gear
   readMore: Read More
   contactUs: Contact Us
+imagesRepair:
+  desc1: 500 hours of total repair and around 3500 capacitors changed on Telefunken M15 tape machine
+  desc2: Changing connector on headset microphone
+  desc3: Making custom cables using Neutrik connectors and Klotz audio cables
+  desc4: Cleaning, repairing faults and recapping power supplyy on Allen&Heath XB-14-2
+  desc5: Recapping and repairing Technics SU-8080
+  desc6: Making custom power cables
+  desc7: Cleaning potentiometers and repairing faults on Gallien Krueger 2001 RB
+  desc8: Making custom high end cables using Neutrik silent plug and Rean connectors and Swiss cable company Gotham Audio
+  desc9: Making custom high end cables using Neutrik and Rean connectors and Swiss cable company Gotham Audio
+  desc10: Making custom cables for testing Telefunken M15 tape machine
+  desc11: General overhaul of Roland VK-7 keyboard
+  desc12: Pulling speaker cables (40 meters) through studio for guitar reamp and making 10 speakON connectors for easy access
+  desc13: Recapping AKG microphone
+  desc14: Recapping Genelec 1092A subwoofer
+  desc15: Recapping and repairing Telefunken W695A EQ
+  desc16: Recapping EMES White TV active monitor amplifier and power supply
+  desc17: Recapping and replacing tubes on Fender Bassbreaker
+  desc18: Recapping and replacing tubes on Laney LC50
+  desc19: Recapping and replacing Darlington packs on Pioneer A-790
+  desc20: Recapping everything on Roland Jazz Chorus 120
+  desc21: Complete overhaul of Crown Macro-tech amplifiers
+  desc22: Recapping PS on Urei 1178
+  desc23: Recapping SPL Qure
+  desc24: Recapping TL Audio 5051 channel strip
+  desc25: Repairing another Shure SM57 broken capsul
+  desc26: Repairing amplifier, recapping and repairing speaker cone on JBL EON 15
+  desc27: Repairing broken AKG C547 microphone
+  desc28: Repairing and recapping AKG microphone
+  desc29: Repairing AKG SR40 receiver for instruments
+  desc30: Repairing and recapping AKG microphones
+  desc31: Repairing and recapping DBX 900 series PS
+  desc32: Repairing and adding ventilation fans for cooling tubes and transformer on VOX AC30 CC2
+  desc33: Repairing loose wires in NeumannGefell CMV563
+  desc34: Repairing broken connectors on Reference Amplifier R300
+  desc35: Repairing display fault on Ensoniq DP4+ unit
+  desc36: Repairing phantom power PS on GMPS 18 power supply unit for mixing console
+  desc37: Replacing rubber suspension on EMES speaker driver
+  desc38: Replacing speaker cone on 15 inch speaker
+  desc39: Rewriting patchbay names and paths - before
+  desc40: Rewriting patchbay names and paths - after
+  desc41: Replacing XLR connectors on Neumann Microphone Distributor
+  desc42: Servicing display and recapping PS on AKAI S1000HD
+  desc43: Telefunken M15 tape machine cards that were recapped and repaired
+  desc44: Total rebuild and replacing capacitors, spring reverb on Pearl Sunflower 1200
+imagesModification:
+  desc1: Building a custom rack with studio equipment
+  desc2: Building custom AES EBU cable
+  desc3: Building custom line level splitter
+  desc4: Building custom line level splitter, PCB design
+  desc5: Making custom Trident TSM solution for replacing TSM EQ slots in Trident 80B frame
+imagesConsulting: 
+  desc1: Installing a new table and rewiring cables in recording room - before
+  desc2: Installing a new table and rewiring cables in recording room - after
+  desc3: Maintaining, modifying, cleaning and repairing Trident 80B console

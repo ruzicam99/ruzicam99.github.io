@@ -31,3 +31,58 @@ as:
   shop: ASAA enote, Rabljena oprema
   readMore: Več o tem
   contactUs: Kontaktirajte Nas
+imagesRepair:
+  desc1: 500 ur popolnega popravila in približno 3500 zamenjanih kondenzatorjev na Telefunken M15 tape machine
+  desc2: Menjava priključka na headset mikrofonu
+  desc3: Izdelava kablov po meri z uporabo Neutrik konektorjev in Klotz audio kablov
+  desc4: Čiščenje, popravilo in ponovna namestitev napajalnika Allen&Heath XB-14-2
+  desc5: Menjava kondenzatorjev in popravilo Technicsa SU-8080
+  desc6: Izdelava napajalnih kablov po meri
+  desc7: Čiščenje potenciometrov in popravilo napak na Gallien Krueger 2001 RB
+  desc8: Izdelava vrhunskih kablov po meri z uporabo silent plug Neutrik in priključkov Rean ter švicarskega kabelskega podjetja Gotham Audio
+  desc9: Izdelava vrhunskih kablov po meri z uporabo priključkov Neutrik in Rean ter švicarskega kabelskega podjetja Gotham Audio
+  desc10: Izdelava kablov po meri za testiranje Telefunken M15 tape machine
+  desc11: Generalna prenova klaviature Roland VK-7
+  desc12: Vlečenje zvočniških kablov (40 metrov) skozi studio za reamp kitare in izdelava 10 speakON priključkov za enostaven dostop
+  desc13: Menjava kondenzatorjev v AKG mikrofonu
+  desc14: Menjava kondenzatorjev v Genelec 1092A subwoofer-ju
+  desc15: Menjava kondenzatorjev in servis Telefunken W695A EQ-ja
+  desc16: Menjava kondenzatorjev v EMES White TV aktivnih monitorjih
+  desc17: Menjava kondenzatorjev in elektronk v Fender Bassbreaker-ju
+  desc18: Menjava kondenzatorjev in elektronk v Laney LC50
+  desc19: Menjava kondenzatorjev in servis Pioneer A-790
+  desc20: Kompletna menjava kondenzatorjev v Roland Jazz Chorus 120
+  desc21: Servis ojačevalcev Crown Macro-tech
+  desc22: Menjava kondenzatorjev v napajalniku Urei 1178
+  desc23: Menjava kondenzatorjev v SPL Qure
+  desc24: Menjava kondenzatorjev v TL Audio 5051 channel strip
+  desc25: Popravilo še ene zlomljene kapsule Shure SM57
+  desc26: Popravilo ojačevalnika, menjava kondenzatorjev in popravilo zvočniške membrane na JBL EON 15
+  desc27: Servis zlomljenega AKG C547, talnega mikrofona
+  desc28: Servis in menjava kondenzatorjev v AKG mikrofonu
+  desc29: Popravilo sprejemnika AKG SR40 za inštrumente
+  desc30: Servis in popravilo AKG mirkfonov
+  desc31: Generalni servis in menjava kondenzatorjev na DBX 900 series napajalniku
+  desc32: Popravilo in dodajanje prezračevalnih ventilatorjev za elektronke in transformatorja na VOX AC30 CC2
+  desc33: Popravilo zlomljenih žic v mikrofonu NeumannGefell CMV563
+  desc34: Popravilo pokvarjenih konektorjev v Reference Amplifier R300
+  desc35: Popravljanje napake zaslona na enoti Ensoniq DP4+
+  desc36: Popravilo fantomskega napajanja v GMPS 18 napajalniku za mešalne mize
+  desc37: Menjava gumijastega vzmetenja na zvočniku EMES
+  desc38: Zamenjava zvočniške membrane na 15 inčnem zvočniku
+  desc39: Ponovno pisanje imen in poti patchbaya - prej
+  desc40: Ponovno pisanje imen in poti patchbaya - potem
+  desc41: Zamenjava konektorjev XLR v Neumann Microphone Distributor
+  desc42: Servisiranje zaslona in napajanja v AKAI S1000HD
+  desc43: Kartice od Telefunken M15 tape machine, ki so bile servisirane 
+  desc44: Popolna obnova in zamenjava kondenzatorjev, spring reverb-a v Pearl Sunflower 1200
+imagesModification:
+  desc1: Izdelava rack omaric s studijsko opremo po meri
+  desc2: Izdelava AES EBU kabla po meri
+  desc3: Izdelava razdelilnika line level po meri
+  desc4: Izdelava razdelilnika line level po meri, PCB dizajn
+  desc5: Izdelava rešitve Trident TSM po meri za zamenjavo TSM EQ v okvirju Trident 80B
+imagesConsulting: 
+  desc1: Namestitev nove mize in napeljava kablov v snemalni sobi - prej
+  desc2: Namestitev nove mize in napeljava kablov v snemalni sobi - potem
+  decs3: Vzdrževanje, spreminjanje, čiščenje in popravilo konzole Trident 80B
