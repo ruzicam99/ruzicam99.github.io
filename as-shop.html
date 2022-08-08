@@ -1,0 +1,46 @@
+---
+layout: subpage
+permalink: /as/shop
+comments: true
+---
+<div class="services-container">
+    <div style="display: flex; justify-content: end;">
+        <button id="open-menu" class="menu-button"><img src="{{site.baseurl}}/assets/images/menu-icon.svg"
+                class="menu-icon" /></button>
+    </div>
+
+    {% include menu.html %}
+    <div style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+        <div style="display: flex; flex-direction: row; align-items: center;">
+            <div class="logo-div-subpage">
+                <span class="span-animate"><img class="logo-div-subpage"
+                        src="{{site.baseurl}}/assets/images/as_light.svg" /></span>
+            </div>
+            <div class="text-div" style="margin-left: 10px">
+                <span class="span-animate" style="margin-right: 4px;"> Shop </span>
+            </div>
+        </div>
+
+        <div class="services-row">
+            <div class="responsive">
+                <div class="gallery">
+                    <a target="_blank" href="{{site.baseurl}}/assets/images/as/DSC00902.jpg">
+                        <img src="{{site.baseurl}}/assets/images/as/DSC00902.jpg" width="600" height="400">
+                    </a>
+                    <div class="desc">{% t as.imageShopDesc %}</div>
+                    <div
+                        style="display: flex; flex-direction: column;  margin:14px;  justify-content: end; align-items: center;">
+                        <button style="max-width: 20%; min-width: 45%; margin-top: 40px" class="read-more"><a
+                                href="mailto:andreas.steffek@asaa.at">{% t as.contactUs %}</a></button>
+
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+
+    </div>
+</div>
+</div>

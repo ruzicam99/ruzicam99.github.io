@@ -31,6 +31,10 @@ as:
   shop: ASAA units, Used gear
   readMore: Read More
   contactUs: Contact Us
+  imageAcousticsDesc: This is Control Room B in Green Lobster Recording Studios. You can see a pseudorandom binary sequence of wooden slats over deep porous absorbers. This provides absorption at lower, and diffusion at higher frequencies to avoid an acoustically "dead" room.
+  imageShopDesc: The Telefunken V672 is the solidstate successor of the legendary V72. It truly deserves the designation 'universal amplifier' as it can be used in a variety of applications including microphone preamplifier, summing amplifier, line amplifier, splitter and more. This rack is available with two V672 modules of the first or second version giving instant access to all these functions plus an additional DI input.
+  imageSolutionsDesc: I had the pleasure to build a Line Pad for a D.W. Fearn VT-2 Preamp. Since the earlier models don't have a dedicated line level input, the signal has to be attenuated externally. In contrast to the Pad that was produced by D.W. Fearn, this one is switchable, so it doesn't have to be unplugged for microphone signals.
+  imageRepairDesc: The Tube-Tech SMC 2B is a very nice multiband compressor for mixing. With all the controls being regular potentiometers it's not ideal for mastering though where exact recall of settings is crucial, that's why Tube-Tech released the SMC 2BM. BUT the SMC 2B can be "upgraded" to the mastering version by replacing all potentiometers with detented ones and rotary switches which is what I did for a client. After reassembly and calibration it's ready to be used in a first mastering session!
 imagesRepair:
   desc1: 500 hours of total repair and around 3500 capacitors changed on Telefunken M15 tape machine
   desc2: Changing connector on headset microphone

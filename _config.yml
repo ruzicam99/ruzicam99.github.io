@@ -55,6 +55,14 @@ menu:
     url: /sas/consulting
   - title: Sas Modifications
     url: /sas/modifications
+  - title: As Room Acoustics
+    url: /as/acoustics
+  - title: As Shop
+    url: /as/shop
+  - title: As Custom Solutions
+    url: /as/solutions
+  - title: As Pro Repair
+    url: /as/repair
 
 sass:
   sass_dir: _sass
