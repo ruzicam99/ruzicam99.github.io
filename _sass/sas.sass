@@ -16,6 +16,7 @@
     display: flex
     justify-content: space-evenly
     margin-top: 50px
+    min-height: 390px
 .even
     flex-direction: row
 .odd
@@ -33,11 +34,15 @@
     border: 1px solid #B6B6B6
     background-color: #000
     color: #B6B6B6
+
+.services-column
+    min-height: 0
 @media (max-width: 450px)
     .services-row
         justify-content: center
         align-items: center
         flex-direction: column
+        min-height: 720px
     .even
         flex-direction: column
     .odd
@@ -47,41 +52,12 @@
     .logo-img
         width: 100px
         height: 100px
+    .services-column
+        min-height: 360px
 
 @media (max-width: 590px)
     .comment-form
         flex-direction: column !important
-
-// @media (max-width: 1070px)
-//     .slide
-//         display: flex
-//         align-items: center
-//         max-width: 650px !important
-//         justify-content: center
-
-//         &-wrapper
-
-//             width: calc(650px * 7) !important
-
-//             animation: slide 15s ease infinite
-
-//         @keyframes slide
-
-//             20%
-//                 margin-left: 0px !important
-
-//             40%
-//                 margin-left: calc(-650px * 1) !important
-
-//             60%
-//                 margin-left: calc(-650px * 2) !important
-
-//             80%
-//                 margin-left: calc(-650px * 3) !important
-//     .slide-image
-//         width: 70% !important
-//     .slide-container
-//         max-width: 650px !important
 
 @keyframes scale
     100%

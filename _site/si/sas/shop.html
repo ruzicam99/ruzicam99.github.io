@@ -183,13 +183,12 @@ align-items: center;
 ">
     <span>{"entry1656855144263"=>{"_id"=>"92876400-fad4-11ec-aa77-1f5511fe0594", "name"=>"Ružica", "email"=>"a53e4667ab0201e3f0e0aa3194948ef3", "message"=>"Name Name", "date"=>"2022-07-03T13:32:24.259Z"}}</span>
     
-    <!-- Existing comments -->
 
     <div style="color: #C7C7C9">
         <h2>Comments</h2>
         
         
-        <!-- List main comments in reverse date order, newest first. List replies in date order, oldest first. -->
+
         
         <div>
             <h3>Ružica</h3>
@@ -203,18 +202,12 @@ align-items: center;
     </div>
     
 
-    <!-- New comment form -->
-    <div>
+    <div style="max-width: 60%;">
         <div style="margin-bottom: 10px;">
     <h2 style="color: #C7C7C9; text-align: center;">Pustite komentar</h2>
     <form method="POST"
         action="https://review-bot-sas.herokuapp.com/v2/entry/ruzicam99/ruzicam99.github.io/master/comments">
-        <!-- <div class="comment-form">
-            <input
-            name="options[redirect]"
-            type="hidden"
-            value="http://localhost:4000/sas/shop"
-          /> -->
+
         <input type="hidden" value="">
         <input class="input-contact" name="fields[name]" placeholder="Ime (obvezno)" type="text">
         <input class="input-contact" name="fields[email]" placeholder="Email (obvezno)"
@@ -256,7 +249,7 @@ align-items: center;
         +386 70 190 210
       </div>
     </div>
-    <div style="display: flex; flex-direction: column;">
+    <div style="display: flex; flex-direction: column; width:100%">
       <div class="footer_text">
         <img src="/si/assets/images/email-icon.svg" class="social-icons"></img>
         andreas.steffek@asaa.at
